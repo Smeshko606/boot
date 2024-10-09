@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Library</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="div">
+      <div class="card" style="width: 18rem">
+        <img src="./524055_1.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Данте Аліг'єрі</h5>
+          <p class="card-text">
+            Поэма, написанная Данте Алигьери в период приблизительно с 1308 по
+            1321 год и дающая наиболее широкий синтез средневековой культуры и
+            онтологии мира.
+          </p>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Go read
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Божественна комедія
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="./Alighieri_-_Divina_Commedia,_Nel_mille_quatro_cento_septe_et_due_nel_quarto_mese_adi_cinque_et_sei_-_2384293_id00022000_Scan00006.jpg"
+                    class="modal-body_image"
+                    alt=""
+                  />
+                  <p>
+                    ПІСНЯ ПЕРША <br />
+                    1] На півшляху свого земного світу <br />2] Я трапив у
+                    похмурий ліс густий, <br />3] Бо стежку втратив, млою
+                    оповиту. <br />4] О, де візьму снаги розповісти <br />5] Про
+                    ліс листатий цей, суворий, дикий, <br />6] Бо жах від згадки
+                    почина рости! <br />7] Над смерть страшну гіркіший він,
+                    великий, — <br />8] Але за благо те, що там знайшов,
+                    <br />9] Повім про все, що в пам'ять взяв навіки. <br />10]
+                    Недобре тямлю, як постав цей схов.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="./images.jfif" class="card-img-top" alt="..." />
+        <div class="card-body body2">
+          <h5 class="card-title">Гарри Поттер и философский камень</h5>
+          <p class="card-text">
+            Фільм був знятий режисером Крісом Коламбусом (він працював і над
+            другим фільмом серії). Головні ролі виконали 12-річні Деніел
+            Редкліфф, Руперт Ґрінт та 11-річна Емма Вотсон.
+          </p>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-primary button-back"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal-2"
+          >
+            Go read
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal-2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header modal-color">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Page 1
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body body-color">
+                  <img
+                    src="./гарри поттер і філософський.jpg"
+                    class="modal-body_image"
+                    alt=""
+                  />
+                  <p>
+                    Хлопчик, що вижив. Містер і місіс Дурслі, що жили в будинку
+                    номер чотири на вуличці Прівіт-драйв, пишалися тим, що були,
+                    слава Богу, абсолютно нормальними. Кого-кого, але тільки не
+                    їх можна було б запідозрити, що вони пов'язані з таємницями
+                    чи дивами, бо такими дурницями вони не цікавилися. Містер
+                    Дурслі керував фірмою "Ґраннінґс", яка виготовляла свердла.
+                    То був такий дебелий чолов'яга, що, здається, й шиї не мав,
+                    зате його обличчя прикрашали пишні вуса.
+                  </p>
+                </div>
+                <div class="modal-footer footer-color">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="./майк омер.webp" class="card-img-top" alt="..." />
+        <div class="card-body body3">
+          <h5 class="card-title">Данте Аліг'єрі</h5>
+          <p class="card-text">
+            Итак, первую жертву основного злодея этой книги находят в её же
+            доме. Она занималась благотворительностью в церкве, все отзывались о
+            ней очень хорошо, хотя в последнее время ее гложили какие-то
+            переживания. Смерть же ее наступила от удушения, однако присутствуют
+            заметные следы сексуального насилия — одежда на девушке разорвана.
+          </p>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-primary btn-color"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal-3"
+          >
+            Go read
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal-3"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header header-color">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Божественна комедія
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body bd-color">
+                  <img
+                    src="./zoe-bentley-mystery-3-thicker-than-blood-mike-omer.jpg"
+                    class="modal-body_image"
+                    alt=""
+                  />
+                  <p>
+                    Кэтрин никогда не сомневалась, что ее душа невесома. Что
+                    она, неосязаемая и ослепительно сияющая, соткана из мыслей,
+                    чувств и убеждений. А еще душа хранит тайны. И вот они-то
+                    день ото дня тяжелеют, тяготят душу.
+                  </p>
+                </div>
+                <div class="modal-footer ft-color">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./книжки.jpg" class="slide1" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./листки.jpg" class="slide1" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./ноутбук та книжка.jpg" class="slide1" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label"
+        >Email address</label
+      >
+      <input
+        type="email"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="name@example.com"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"
+        >Example textarea</label
+      >
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3"
+      ></textarea>
+    </div>
+    <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <label for="inputPassword6" class="col-form-label">Password</label>
+      </div>
+      <div class="col-auto">
+        <input
+          type="password"
+          id="inputPassword6"
+          class="form-control"
+          aria-describedby="passwordHelpInline"
+        />
+      </div>
+      <div class="col-auto">
+        <span id="passwordHelpInline" class="form-text">
+          Must be 8-20 characters long.
+        </span>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+.btn {
+  background-color: brown;
+}
+.card-body {
+  background-color: rgb(250, 191, 115);
+}
+.modal-body_image {
+  width: 100%;
+}
+.modal-body {
+  background-color: rgb(250, 191, 115);
+}
+.modal-header {
+  background-color: rgb(250, 191, 115);
+}
+.modal-footer {
+  background-color: rgb(250, 191, 115);
+}
+
+.body2 {
+  background-color: rgb(28, 28, 102);
+  color: white;
+}
+.body3 {
+  background-color: brown;
+  color: chocolate;
+}
+.div {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+body {
+  background-color: coral;
+}
+.slide1 {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+.button-back {
+  background-color: rgb(82, 105, 236);
+}
+.btn-color {
+  background-color: rgb(255, 142, 50);
+  color: black;
+  border: 1px solid #b10c0c;
+}
+.modal-color {
+  background-color: cadetblue;
+}
+.body-color {
+  background-color: cadetblue;
+}
+.footer-color {
+  background-color: cadetblue;
+}
+.header-color {
+  background-color: #b10c0c;
+  color: rgb(255, 155, 74);
+}
+.bd-color {
+  background-color: #b10c0c;
+  color: rgb(255, 155, 74);
+}
+.ft-color {
+  background-color: #b10c0c;
+  color: chocolate;
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: transparent !important;
+}
